@@ -1,7 +1,6 @@
 [submodul "openwrt"]
 	path = openwrt
-	url =  git://nbd.name/backfire.git
-
+	url = git://nbd.name/backfire.git
 [submodule "env"]
 	path = openwrt/env
 	url = https://github.com/yanosz/lffenv.git
