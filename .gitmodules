@@ -1,0 +1,13 @@
+[submodul "openwrt"]
+	path = openwrt
+	url =  git://nbd.name/backfire.git
+
+[submodule "env"]
+	path = openwrt/env
+	url = https://github.com/yanosz/lffenv.git
+[submodule "feeds/packages"]
+	path = openwrt/feeds/packages
+	url = http://krtek.asta.uni-luebeck.de/git/lffpkg.git
+[submodule "feeds/luci"]
+	path = openwrt/feeds/luci
+	url = http://krtek.asta.uni-luebeck.de/git/lffluci.git
